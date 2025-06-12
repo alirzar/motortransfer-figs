@@ -13,7 +13,7 @@ from surfplot.utils import add_fslr_medial_wall
 from utils.config import *
 
 plt.rcParams['font.family'] = ['Arial']
-plt.rcParams["savefig.format"] = 'svg'
+plt.rcParams["savefig.format"] = 'png'
 plt.rcParams["savefig.dpi"] = 300
 
 atlas_file = os.path.join(RESOURCES_DIR, 'Schaefer2018_400Parcels_17Networks_order.dlabel.nii')
