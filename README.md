@@ -16,7 +16,7 @@ python main.py
 
 ### Folders:
 - data/         Input data and resources (Excel files, surface/atlas files)
-- figures/      Output figures (auto-generated)
+- figures/      Output figures
 - scripts/      Python scripts for each figure
 - utils/        Shared plotting/configuration code
 
