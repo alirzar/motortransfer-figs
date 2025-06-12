@@ -1,0 +1,22 @@
+# Conda environment for motor transfer open data (PLOS Biology - 2025)
+name: motortransfer-figs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.6
+  - numpy=1.26.2
+  - pandas=2.2.1
+  - matplotlib=3.10.1
+  - seaborn=0.13.2
+  - scipy=1.11.4
+  - openpyxl=3.1.5
+  - nibabel=5.2.0
+  - natsort=8.4.0
+  - cmasher=1.9.2
+  - pingouin=0.5.4
+  - vtk==9.3.0
+  - pip=23.3.1
+  - pip:
+      - surfplot==0.2.0
+      - brainspace==0.1.10
+
